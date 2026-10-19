@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+.pytest_tmp/
+.pytest_tmp-*/
+
+# Local development environment
+.venv/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local video and generated data
+/data/videos/
+/data/metadata/
+/data/subtitles/
+/data/cache/
+/data/config/
+/output/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
