@@ -1,5 +1,16 @@
 # AI Video Learning Workspace — Agent Instructions
 
+## Python Environment
+
+This project uses a Conda environment for local development.
+
+Before running Python commands:
+1. Identify the project's active Python interpreter.
+2. Do not assume that `python` on PATH points to the correct interpreter.
+3. Use the confirmed interpreter consistently for pip, pytest, and application commands.
+4. If the interpreter cannot be determined, request its path instead of installing another Python environment.
+5. Do not modify global PATH, create environments, or install packages without approval.
+
 ## 1. Product and scope
 
 Build a maintainable application that helps non-native English speakers **learn technical subjects through English-language videos** ("Learn through English, not Learn English"). Initial audience: Japanese STEM students, researchers, and early-career engineers, especially in AI/IT/data science.
